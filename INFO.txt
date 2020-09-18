@@ -1,0 +1,37 @@
+
+server-eureka: 
+API EUREKA SERVER
+	* Spring Boot
+	* Eureka Server
+
+server-zuul:
+API ZUUL SERVER
+	* Spring Boot
+	* Zuul
+	* Eureka Discovery Client
+
+service-articulos: 
+API REST CLIENT
+	* Spring Boot
+	* RestTemplate
+	* Ribbon
+	* Eureka Discovery Client
+	* Hystrix
+	* Log4j2
+
+service-items: 
+API REST CLIENT
+	* Spring Boot
+	* Feign
+	* Ribbon
+	* Eureka Discovery Client
+	* Hystrix
+	* Log4j2
+
+service-productos: 
+API REST SERVER
+	* Spring Boot
+	* Spring Data JPA
+	* Oracle
+	* Eureka Discovery Client
+	* Log4j2
